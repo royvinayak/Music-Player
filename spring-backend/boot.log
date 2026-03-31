@@ -1,0 +1,26 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.4.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :resolveMainClassName UP-TO-DATE
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.4)
+
+2026-03-21T00:01:52.786+05:30  INFO 21280 --- [           main] com.playlisto.PlaylistoApplication       : Starting PlaylistoApplication using Java 17.0.11 with PID 21280 (C:\music-player\spring-backend\build\classes\java\main started by risha in C:\music-player\spring-backend)
+2026-03-21T00:01:52.794+05:30  INFO 21280 --- [           main] com.playlisto.PlaylistoApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-03-21T00:01:53.790+05:30  INFO 21280 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2026-03-21T00:01:53.799+05:30  INFO 21280 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-21T00:01:53.799+05:30  INFO 21280 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2026-03-21T00:01:53.903+05:30  INFO 21280 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-21T00:01:53.903+05:30  INFO 21280 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1045 ms
+2026-03-21T00:01:54.381+05:30  INFO 21280 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2026-03-21T00:01:54.389+05:30  INFO 21280 --- [           main] com.playlisto.PlaylistoApplication       : Started PlaylistoApplication in 2.02 seconds (process running for 2.393)
